@@ -160,6 +160,7 @@ depends: [
   "zarith" {= "1.9.1+dune"}
 ]
 depexts: [
+  ["texlive-full"] {os-family = "debian"}
   ["tzdata"] {os-distribution = "alpine"}
   ["tzdata"] {os-distribution = "debian"}
   ["tzdata"] {os-distribution = "ubuntu"}
